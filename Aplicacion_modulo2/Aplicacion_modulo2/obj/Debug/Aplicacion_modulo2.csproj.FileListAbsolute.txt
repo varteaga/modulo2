@@ -1,0 +1,11 @@
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\bin\Debug\Aplicacion_modulo2.exe.config
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\bin\Debug\Aplicacion_modulo2.exe
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\bin\Debug\Aplicacion_modulo2.pdb
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\bin\Debug\Newtonsoft.Json.dll
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\bin\Debug\Newtonsoft.Json.xml
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.csprojResolveAssemblyReference.cache
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.Form1.resources
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.Properties.Resources.resources
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.csproj.GenerateResource.Cache
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.exe
+c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.pdb
