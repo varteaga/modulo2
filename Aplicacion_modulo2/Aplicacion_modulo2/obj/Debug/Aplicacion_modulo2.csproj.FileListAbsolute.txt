@@ -9,3 +9,6 @@ c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicaci
 c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.csproj.GenerateResource.Cache
 c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.exe
 c:\users\naome\documents\visual studio 2013\Projects\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.pdb
+C:\Users\naome\Documents\GitHub\modulo2\Aplicacion_modulo2\Aplicacion_modulo2\bin\Debug\Aplicacion_modulo2.exe.config
+C:\Users\naome\Documents\GitHub\modulo2\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.exe
+C:\Users\naome\Documents\GitHub\modulo2\Aplicacion_modulo2\Aplicacion_modulo2\obj\Debug\Aplicacion_modulo2.pdb
