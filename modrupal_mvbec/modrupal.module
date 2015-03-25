@@ -1,0 +1,55 @@
+<?php
+
+function modrupal_menu() {
+
+    $items['modrupal/json'] = array(
+        'title' => 'JSONv2',
+        'page callback' => 'modrupal_list',
+        'access callback' => TRUE
+    );
+    return $items;
+}
+
+function modrupal_list()
+{
+    if (isset($_POST['index']))
+        $index    = $_POST['index'];
+        if ($index==1)
+    {
+        $query = db_select('node', 'n');
+        $query->join('field_data_body', 'fdb', 'n.nid=fdb.entity_id');
+        $query->join('file_managed', 'fm', 'n.nid=fm.fid');
+        $query->join('taxonomy_term_data', 'ttd', 'n.nid=ttd.tid');
+        //$query->join('field_data_comment_body', 'fdcb', 'n.nid=fdcb.entity_id');
+        $query->leftJoin('field_data_comment_body', 'fdcb', 'n.nid=fdcb.entity_id');
+        $query->fields('n', array('nid', 'title', 'created'))
+            ->fields('fdb', array('body_value'))
+            ->fields('fm', array('filename'))
+            ->fields('ttd', array('name'))
+            ->fields('fdcb', array('comment_body_value'))
+            ->condition('n.status', 1)
+            ->orderBy('created', 'DESC');
+        $result = $query->execute();
+
+
+        $articulos = array();
+        while ($entrada = $result->fetchAssoc()) {
+            $titulo = $entrada['title'];
+            $categoria = $entrada['name'];
+            $imagen = $entrada['filename'];
+            $cuerpo = $entrada['body_value'];
+            $comentarios=$entrada['comment_body_value'];
+            $fecha = format_date($entrada['created'], 'custom', 'j M Y');
+
+            $articulos[$entrada['nid']] = array(
+                'titulo' => $titulo,
+                'categoria' => $categoria,
+                'imagen' => "http://10.0.0.21/sites/default/files/styles/medium/public/field/image/".$imagen,
+                'cuerpo' => $cuerpo,
+                'comentarios' => $comentarios,
+                'fecha' => $fecha
+            );
+        }
+        echo json_encode($articulos);
+    }
+}

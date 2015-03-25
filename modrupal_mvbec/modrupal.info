@@ -1,0 +1,5 @@
+name = "modrupal"
+description = "Implementación de algún Web Service que transmite el contenido almacenado en el sitio al servidor Front End."
+version = VERSION
+package = becarios
+core = 7.x
